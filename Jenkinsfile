@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Define your build steps here
-                bat 'python3 sample.py'
+                bat 'python sample.py'
                 
             }
         }
