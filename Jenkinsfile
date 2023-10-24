@@ -13,7 +13,8 @@ pipeline {
             steps {
                 // Define your build steps here
                 bat 'echo %PATH%'
-                bat 'python sample.py'
+                bat 'where python'
+                // bat 'python sample.py'
             }
         }
     }
