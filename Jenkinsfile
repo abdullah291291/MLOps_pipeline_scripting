@@ -12,10 +12,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Define your build steps here
-                script {
-                    // git branch: 'main', url: 'https://github.com/abdullah291291/MLOps_pipeline_scripting'
-                    sh 'python3 sample.py'
-                }
+                sh 'python3 sample.py'
+                
             }
         }
     }
