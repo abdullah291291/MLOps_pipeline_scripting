@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Define your build steps here
-                bat '"C:\Users\abdul\AppData\Local\Microsoft\WindowsApps\python.exe" sample.py'
+                bat 'python3 sample.py'
                 
             }
         }
