@@ -2,18 +2,17 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage("Checkout") {
             steps {
                 // Check out your source code repository here
                 checkout scm
             }
         }
 
-        stage('Build') {
+        stage("Build") {
             steps {
                 // Define your build steps here
-                bat 'python3 sample.py'
-                
+                bat 'python sample.py'
             }
         }
     }
