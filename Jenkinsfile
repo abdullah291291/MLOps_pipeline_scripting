@@ -14,8 +14,8 @@ pipeline {
                 // Define your build steps here
                 bat 'echo %PATH%'
                 // bat 'where python'
-                bat 'python sample.py'
-                // bat '"C:\Users\abdul\AppData\Local\Programs\Python\Python311\python.exe" sample.py'
+                // bat 'python sample.py'
+                bat '"C:\\Users\\abdul\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" sample.py'
             }
         }
     }
