@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Define your build steps here
-                bat 'python sample.py'
+                bat 'C:\ProgramData\Anaconda3\python.exe sample.py'
                 
             }
         }
