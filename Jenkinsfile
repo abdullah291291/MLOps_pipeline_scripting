@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Define your build steps here
                 script {
-                    sh 'python3 sample.py' // Replace with your Python interpreter and script name if needed
+                    sh 'python sample.py' // Replace with your Python interpreter and script name if needed
                 }
             }
         }
